@@ -1,0 +1,241 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.landingContent img {
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 25%;
+    border-radius: 75%;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+
+.logoNav img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #9D1821;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px 100px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Yeseva One', cursive;
+}   
+
+.topnav a:hover {
+    background-color: white;
+    color: #9D1821;
+  }
+  
+  .topnav a.active {
+    background-color: beige;
+    color: #9D1821;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #9D1821;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    color: #9D1821;
+    text-align: center;
+    height: 100px;
+  }
+
+  .socialMedia{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+.socialMedia img {
+    width: 50px;
+    padding: 5px;
+}
+
+.contactFaq a{
+    color: #9D1821;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeSectionOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.homeSectionOne p{
+    background-color: #9D1821;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.homeSectionOne img{
+    margin: 2%;
+    width: 50%;
+}
+
+.homeSectionTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.homeSectionTwo img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.sectionTwo{
+    font-family: 'Yeseva One', cursive;
+    color: #9D1821;
+    margin: 2%;
+}
+
+button {
+    background-color: #9D1821;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive;
+    margin: 2%;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: beige;
+    color: #9D1821;
+  }
+
+.homeSectionThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 2%;
+}
+.homeSectionThree img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.homeSectionThree img:hover {
+    opacity: 0.3;
+  }
+
+.aboutUs {
+    position: relative;
+    width: 50%;
+  }
+
+  .ourGallery {
+    position: relative;
+    width: 50%;
+  }
+  .ourHistory {
+    position: relative;
+    width: 50%;
+  }
+  
+  .homeSectionThree button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #9D1821;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive;
+  }
+  
+  .homeSectionThree button:hover {
+    background-color: beige;
+    color: #9D1821;
+  }
