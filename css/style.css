@@ -1,3 +1,5 @@
+
+/* index.html */
 #myVideo {
     position: fixed;
     right: 0;
@@ -16,6 +18,7 @@
     border-radius: 75%;
 }
 
+/* navbar styling */
 nav {
     position: sticky;
     display: flex;
@@ -79,6 +82,8 @@ nav {
 
   }
 
+
+  /* footer styling */ 
   footer{
     display: flex;
     justify-content: space-evenly;
@@ -109,7 +114,8 @@ nav {
     color: #9D1821;
 }
 
-main{
+/* home.html */
+.homeMain{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +166,7 @@ main{
     margin: 2%;
 }
 
-button {
+.menuButton {
     background-color: #9D1821;
     border: none;
     color: white;
@@ -174,7 +180,7 @@ button {
     border-radius: 5px;
   }
 
-  button:hover {
+  .menuButton:hover {
     background-color: beige;
     color: #9D1821;
   }
