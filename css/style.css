@@ -181,12 +181,6 @@ nav {
     margin: 2%;
     border-radius: 5px;
   }
-
-  .menuButton:hover {
-    background-color: beige;
-    color: #9D1821;
-  }
-
    
   .menuButton:hover {
     background-color: beige;
