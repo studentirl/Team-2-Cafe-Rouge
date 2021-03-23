@@ -187,6 +187,19 @@ nav {
     color: #9D1821;
   }
 
+   
+  .menuButton:hover {
+    background-color: beige;
+  }
+  
+  .menuButton:hover a {
+    color: #9D1821;
+  }
+  .menuButton a{
+    color: white;
+    text-decoration: none;
+  }
+
 .homeSectionThree{
     display: flex;
     flex-direction: row;
@@ -245,9 +258,15 @@ nav {
   
   .homeSectionThree button:hover {
     background-color: beige;
-    color: #9D1821;
   }
 
+  .homeSectionThree button:hover a {
+    color: #9D1821;
+  }
+  .homeSectionThree a{
+    color: white;
+    text-decoration: none;
+  }
   /* our history styling*/
 
   .header {
