@@ -1,0 +1,149 @@
+body {
+    font-family: 'Abril Fatface', serif;
+    text-shadow: 0px 0px 0px #aaa;
+    background-color: beige;
+        color: #9D1821;
+        
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.description1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 700px; 
+    margin: 0 auto;
+    text-align: center;
+    background-color: beige;
+    color: #9D1821;
+}
+
+ img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 550px;
+        padding: 10px;
+   
+    }
+
+.description2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+    /* navbar styling */
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+
+.logoNav img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #9D1821;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px 100px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Yeseva One', cursive;
+}   
+
+.topnav a:hover {
+    background-color: white;
+    color: #9D1821;
+  }
+  
+  .topnav a.active {
+    background-color: beige;
+    color: #9D1821;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #9D1821;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+
+  /* footer styling */ 
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    color: #9D1821;
+    text-align: center;
+    height: 100px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    text-shadow: none;
+  }
+
+  .socialMedia{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .socialMedia img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+
+.contactFaq a{
+    color: #9D1821;
+}
